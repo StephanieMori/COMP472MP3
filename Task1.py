@@ -6,7 +6,7 @@ from csv import reader
 # this step is taking in the model and creating vectors to be used in the next steps
 print("importing model")
 model = api.load("word2vec-google-news-300")  # load takes about 40 seconds - give it time
-print("model imported")
+
 
 vocabSize = 0
 C = 0
@@ -90,3 +90,5 @@ file.write(d)
 file.write(comma)
 file.write(e)
 file.close()
+
+print("model imported")
