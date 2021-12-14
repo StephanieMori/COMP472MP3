@@ -1,10 +1,20 @@
 # COMP472MP3
 
-current things about the code
+Team members :
+
+- Stephanie Mori 40046039
+
+- Rama Alrifai 40116096
+
+Github link : https://github.com/StephanieMori/COMP472MP3
+
+note : some of the files on github are not part of the final submission as these files were what we used throughout development but are not part of the final product
+
+About the code
 - Make sure to downgrade to python 3.8 because the gensim documentation asked for it, and the assignment also asked for it.
-- Gensim library was giving me issues when I had downloaded it into the location where my project is --> so if you have it downloaded in your project directory and it does not work then download it globally. What I mean is to download it to your desktop in the commandline .
+- The code is run simply by running it, everything is done in one shot therefore expect is to take a couple minutes to complete since every corpora being used takes a couple of minutes... It is normal, do not quit it before it is done
+- Output files are open in append mode, this means that any time you run the code the outputs will be added to the file after what is already there. You need to delete the files that exist before running it so that it is recreated from scratch.
 
+Otherwise there is nothing special or specific about running the code.
 
-- Also, output files are open in append mode, this means that any time you run the code the outputs will be added to the file after what is already there. This is not ideal since it leads to big files with duplicates. I usually delete the filees that exist before running it so that it is recreated from scratch - cleaner and better for actual outputs to be submitted.
-- "model = api.load("word2vec-google-news-300")  # load takes about 40 seconds - give it time
-" is a complex step that takes about 30-45 seconds to run depending what else is running on your computer, give it time before thinking it is having errors (lol)
+All output files are named as requested in the assignment description therefore should be self explanatory.
